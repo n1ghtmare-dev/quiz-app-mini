@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz App</title>
+</head>
+<body>
+  <div class="q_box">
+    <div class="q_header">
+      <span>Score: <span id="score">0</span></span>
+      <span id="countdown">0</span>
+    </div>
+    <div class="q_body">
+      <div class="q_set active">
+        <h4>1. Что значит HTML</h4>
+        <div class="q_answer_row">
+          <input type="radio" name="a1">
+          <span>Hyperlinks and Text Markup Language</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a1">
+          <span>Home Tool Markup Language</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a1" valid="valid">
+          <span>Hyper Text Markup Language</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a1">
+          <span>Cascading Style Sheets</span>
+        </div>
+      </div>
+      <div class="q_set">
+        <h4>2. Как разместить знак copyright на сайте</h4>
+        <div class="q_answer_row">
+          <input type="radio" name="a2">
+          <span>На официальных сайтах этот значок появляется автоматически</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a2" valid="valid">
+          <span>Набрать на клавиатуре последовательность &copy или &#169</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a2">
+          <span>Нужно спросить у друга</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a2">
+          <span>Найти этот знак на клавиатуре и вписать</span>
+        </div>
+      </div>
+      <div class="q_set">
+        <h4>3. Для чего нужен CSS</h4>
+        <div class="q_answer_row">
+          <input type="radio" name="a3">
+          <span>Для автоматического выстраивания элементов на сайте</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a3">
+          <span>Без CSS сайт не будет работать</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a3">
+          <span>CSS позволяет создавать правила и инструкции для серверной части сайта</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a3" valid="valid">
+          <span>С CSS настраивают правила внешнего вида контента на странице</span>
+        </div>
+      </div>
+      <div class="q_set">
+        <h4>4. Где хранятся числовые коды символов в HTML</h4>
+        <div class="q_answer_row">
+          <input type="radio" name="a4">
+          <span>На компьютере</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a4">
+          <span>На сайте</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a4" valid="valid">
+          <span>В таблице ASCII</span>
+        </div>
+        <div class="q_answer_row">
+          <input type="radio" name="a4">
+          <span>Можно найти в интернете</span>
+        </div>
+      </div>
+      <div class="q_set">
+        <h4>Твой счет <span id="totalScore">0</span> из 100</h4>
+      </div>
+    </div>
+    <div class="q_footer">
+      <span class="btn1" id="skip">Skip</span>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
